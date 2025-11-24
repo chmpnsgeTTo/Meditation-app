@@ -17,7 +17,7 @@ const HomePage = ({ onNavigate, onAuthClick, user }) => {
             )}
           </div>
           <div className="greeting">
-            <h2>Добрый день</h2>
+            <h2>Привет 🍓</h2>
             <p>{user ? user.name : 'Гость'}</p>
             {!user && (
               <button className="auth-hint" onClick={() => onAuthClick('login')}>
@@ -84,11 +84,11 @@ const HomePage = ({ onNavigate, onAuthClick, user }) => {
       <div className="bottom-nav">
         <div className="nav-item active">
           <span>🏠</span>
-          <p>Сегодня</p>
+          <p>Главная</p>
         </div>
         <div className="nav-item" onClick={() => onNavigate('explore')}>
           <span>📊</span>
-          <p>Исследуй</p>
+          <p>Интересные факты</p>
         </div>
         <div className="nav-item" onClick={() => onNavigate('yoga')}>
           <span>🧘‍♀️</span>
