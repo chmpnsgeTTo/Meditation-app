@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/meditation-app/static/css/main.987ed50b.css",
-    "main.js": "/meditation-app/static/js/main.0d3a7963.js",
+    "main.js": "/meditation-app/static/js/main.87a7a735.js",
     "index.html": "/meditation-app/index.html",
     "main.987ed50b.css.map": "/meditation-app/static/css/main.987ed50b.css.map",
-    "main.0d3a7963.js.map": "/meditation-app/static/js/main.0d3a7963.js.map"
+    "main.87a7a735.js.map": "/meditation-app/static/js/main.87a7a735.js.map"
   },
   "entrypoints": [
     "static/css/main.987ed50b.css",
-    "static/js/main.0d3a7963.js"
+    "static/js/main.87a7a735.js"
   ]
 }
